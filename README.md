@@ -1,2 +1,2 @@
-# backend-verse_es_website
-Backend-Verse project Spanish website.
+# backend-verse_website
+Backend-Verse project website.
