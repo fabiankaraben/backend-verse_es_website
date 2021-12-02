@@ -20,7 +20,17 @@ Solo veremos la utilización de Git a través de comando de consola, para poder 
 
 ## Conceptos
 
-.
+### Repositorio
+
+Es el nombre que Git da a cada proyecto de código, aunque un repositorio puede almacenar cualquier tipo de contenido, no solamente código de programación.
+
+### Stage
+
+Inicialmente un repositorio tiene todos sus archivos sin seguimiento. Posteriormente podemos agregar uno, varios o todos los archivos al "Stage" lo cual podríamos entenderlo con la analogía de un escenario donde se va a sacar una foto. Subimos archivos al escenario (agregándolo al stage) para luego tomar la fotografía (realizar un commit).
+
+### Commit
+
+Siguiendo la analogía del concepto de 'Stage', realizar un commit es como tomar una fotografía de todos los archivos que se encuentran en el 'stage', esto es, guardar el estado actual de todos esos archivos y dejarlo registrado en la línea del tiempo de nuestro repositorio Git.
 
 ## Comandos
 
@@ -53,7 +63,7 @@ Configurar el nombre del usuario:
 git config --global user.name = "Fabian Karaben"
 ```
 
-Configurar el nombre del usuario:
+Configurar el email del usuario:
 
 ```
 git config --global user.email = "fabian@example.com"
@@ -64,3 +74,46 @@ Ver y opcionalmente editar la configuración actual del usuario:
 ```
 git config --global -e
 ```
+
+#### Inicializar un repositorio
+
+```
+git init
+```
+
+#### Ver el estado del repositorio
+
+Este comando muestra información sobre los commits, sobre la rama actual, y más:
+
+```
+git status
+```
+
+#### Agregar y remover archivos del 'stage'
+
+Agregar un archivo específico al stage:
+
+```
+git add index.html
+```
+
+Agregar todos los archivos al stage:
+
+```
+git add .
+```
+
+Remover un archivo específico del stage:
+
+```
+git reset index.html
+```
+
+#### Commits
+
+Realizar un commit
+
+```
+git commit -m "Un mensaje descriptivo para este commit"
+```
+

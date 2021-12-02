@@ -8,7 +8,12 @@
 <p>Enfrentarse a conflictos es algo normal, no hay que asustarse, e incluso existen técnicas para evitar tener una gran cantidad de conflictos.</p>
 <p>Solo veremos la utilización de Git a través de comando de consola, para poder abarcar todos los conceptos necesarios, luego con esa información aprendida es sencillo que cada quien elija el gestor gráfico de repositorios Git que más le guste.</p>
 <h2>Conceptos</h2>
-<p>.</p>
+<h3>Repositorio</h3>
+<p>Es el nombre que Git da a cada proyecto de código, aunque un repositorio puede almacenar cualquier tipo de contenido, no solamente código de programación.</p>
+<h3>Stage</h3>
+<p>Inicialmente un repositorio tiene todos sus archivos sin seguimiento. Posteriormente podemos agregar uno, varios o todos los archivos al “Stage” lo cual podríamos entenderlo con la analogía de un escenario donde se va a sacar una foto. Subimos archivos al escenario (agregándolo al stage) para luego tomar la fotografía (realizar un commit).</p>
+<h3>Commit</h3>
+<p>Siguiendo la analogía del concepto de ‘Stage’, realizar un commit es como tomar una fotografía de todos los archivos que se encuentran en el ‘stage’, esto es, guardar el estado actual de todos esos archivos y dejarlo registrado en la línea del tiempo de nuestro repositorio Git.</p>
 <h2>Comandos</h2>
 <h4>Conocer la versión instalada de Git</h4>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git --version</code></pre></div>
@@ -20,7 +25,22 @@
 <h4>Configuración inicial de Git</h4>
 <p>Configurar el nombre del usuario:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git config --global user.name = "Fabian Karaben"</code></pre></div>
-<p>Configurar el nombre del usuario:</p>
+<p>Configurar el email del usuario:</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git config --global user.email = "fabian@example.com"</code></pre></div>
 <p>Ver y opcionalmente editar la configuración actual del usuario:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git config --global -e</code></pre></div></section><hr/><footer></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/que-es-desarrollo-backend/">← <!-- -->¿Qué es desarrollo Backend?</a></li><li></li></ul></nav></main><footer>© <!-- -->2021<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/apuntes-git/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-a697902e85357803c2b4.js"],"app":["/app-4161403850a591efde6e.js"],"component---src-pages-404-js":["/component---src-pages-404-js-7dcd600d3b741259af27.js"],"component---src-pages-index-js":["/component---src-pages-index-js-92c93fcb8e3d5b6ca6c0.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-de9bc6f1fef816e9ca46.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-dc2f7ec73907bd303495.js"]};/*]]>*/</script><script src="/polyfill-a697902e85357803c2b4.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-dc2f7ec73907bd303495.js" async=""></script><script src="/commons-5d579d8c05f67f7f9126.js" async=""></script><script src="/app-4161403850a591efde6e.js" async=""></script><script src="/framework-f632c601740dee030cc3.js" async=""></script><script src="/webpack-runtime-9d92bf633c543b7da950.js" async=""></script></body></html>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git config --global -e</code></pre></div>
+<h4>Inicializar un repositorio</h4>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git init</code></pre></div>
+<h4>Ver el estado del repositorio</h4>
+<p>Este comando muestra información sobre los commits, sobre la rama actual, y más:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git status</code></pre></div>
+<h4>Agregar y remover archivos del ‘stage’</h4>
+<p>Agregar un archivo específico al stage:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git add index.html</code></pre></div>
+<p>Agregar todos los archivos al stage:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git add .</code></pre></div>
+<p>Remover un archivo específico del stage:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git reset index.html</code></pre></div>
+<h4>Commits</h4>
+<p>Realizar un commit</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git commit -m "Un mensaje descriptivo para este commit"</code></pre></div></section><hr/><footer></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/que-es-desarrollo-backend/">← <!-- -->¿Qué es desarrollo Backend?</a></li><li></li></ul></nav></main><footer>© <!-- -->2021<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/apuntes-git/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-a697902e85357803c2b4.js"],"app":["/app-4161403850a591efde6e.js"],"component---src-pages-404-js":["/component---src-pages-404-js-7dcd600d3b741259af27.js"],"component---src-pages-index-js":["/component---src-pages-index-js-92c93fcb8e3d5b6ca6c0.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-de9bc6f1fef816e9ca46.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-dc2f7ec73907bd303495.js"]};/*]]>*/</script><script src="/polyfill-a697902e85357803c2b4.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-dc2f7ec73907bd303495.js" async=""></script><script src="/commons-5d579d8c05f67f7f9126.js" async=""></script><script src="/app-4161403850a591efde6e.js" async=""></script><script src="/framework-f632c601740dee030cc3.js" async=""></script><script src="/webpack-runtime-9d92bf633c543b7da950.js" async=""></script></body></html>
