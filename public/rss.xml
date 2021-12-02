@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Backend-Verse RSS Feed]]></title><description><![CDATA[Análisis del multiverso de lenguajes de programación de backend.]]></description><link>https://es.backend-verse.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Dec 2021 07:25:27 GMT</lastBuildDate><item><title><![CDATA[Mis apuntes git, conceptos y comandos]]></title><description><![CDATA[Introducción Aprender Git es fundamental en el desarrollo de software, no importa qué tecnología utilices, o si trabajas de forma individual…]]></description><link>https://es.backend-verse.com/apuntes-git/</link><guid isPermaLink="false">https://es.backend-verse.com/apuntes-git/</guid><pubDate>Thu, 02 Dec 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;Aprender Git es fundamental en el desarrollo de software, no importa qué tecnología utilices, o si trabajas de forma individual o en grupo.&lt;/p&gt;
+&lt;p&gt;Usualmente Git trabaja de una manera formidable si es orientado al código, porque Git va a poder analizar los archivos, determinar qué cambió, hacer uniones de código, y todo de manera automática.&lt;/p&gt;
+&lt;p&gt;Ahora, va a llegar un punto donde Git no lo va a poder hacer de manera automática, como cuando dos personas tocan el mismo código, se produce un conflicto y en esos casos Git necesita que ese conflicto se resuelva manualmente.&lt;/p&gt;
+&lt;p&gt;Enfrentarse a conflictos es algo normal, no hay que asustarse, e incluso existen técnicas para evitar tener una gran cantidad de conflictos.&lt;/p&gt;
+&lt;p&gt;Solo veremos la utilización de Git a través de comando de consola, para poder abarcar todos los conceptos necesarios, luego con esa información aprendida es sencillo que cada quien elija el gestor gráfico de repositorios Git que más le guste.&lt;/p&gt;
+&lt;h2&gt;Conceptos&lt;/h2&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;h2&gt;Comandos&lt;/h2&gt;
+&lt;h4&gt;Conocer la versión instalada de Git&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Visualizar el contenido de ayuda del comando de Git&lt;/h4&gt;
+&lt;p&gt;Ver la ayuda general:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git help&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ver la ayuda de un subcomando específico:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git help commit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Configuración inicial de Git&lt;/h4&gt;
+&lt;p&gt;Configurar el nombre del usuario:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git config --global user.name = &quot;Fabian Karaben&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Configurar el nombre del usuario:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git config --global user.email = &quot;fabian@example.com&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ver y opcionalmente editar la configuración actual del usuario:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git config --global -e&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[¿Qué es desarrollo Backend?]]></title><description><![CDATA[¿Qué es backend? Pues primero hablemos de lo que no es backend, es decir, hablemos de ¿qué es frontend?. Frontend es una capa en el…]]></description><link>https://es.backend-verse.com/que-es-desarrollo-backend/</link><guid isPermaLink="false">https://es.backend-verse.com/que-es-desarrollo-backend/</guid><pubDate>Mon, 29 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;¿Qué es backend?&lt;/p&gt;
+&lt;p&gt;Pues primero hablemos de lo que no es backend, es decir, hablemos de ¿qué es frontend?.&lt;/p&gt;
+&lt;p&gt;Frontend es una capa en el desarrollo de software, la capa de la interfaz gráfica, es decir, lo que el usuario ve, puede ser app mobile, una página web, por dar algunos ejemplos. Por otra parte, backend es el servicio que se ejecuta en un servidor, lo que normalmente llamamos “la nube”.&lt;/p&gt;
+&lt;p&gt;El frontend realiza solicitudes al backend. El backend recibe una solicitud, realiza las validaciones y el procesamiento necesario y devuelve una respuesta al frontend.&lt;/p&gt;
+&lt;p&gt;Muchas veces el trabajo del backend incluye consultas a una base de datos.&lt;/p&gt;
+&lt;p&gt;El desarrollo backend debe ser capaz de responder rápidamente a miles o millones de instancias de frontend, por lo que la optimización de los algoritmos es muy importante.&lt;/p&gt;</content:encoded></item></channel></rss>
