@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/notas/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Backend-Verse"}},"markdownRemark":{"id":"b19c4480-e3f1-5269-9d7f-41f57e980ae1","excerpt":"Mis notas de Git","html":"<ul>\n<li><a href=\"/notas/git\">Mis notas de Git</a></li>\n</ul>","frontmatter":{"title":"Mis notas","date":"November 04, 2021","description":"Mis notas acerca de tópicos TI"}},"previous":null,"next":{"fields":{"slug":"/que-es/"},"frontmatter":{"title":"Qué es"}}},"pageContext":{"id":"b19c4480-e3f1-5269-9d7f-41f57e980ae1","previousPostId":null,"nextPostId":"bf5e5b78-ada0-5db5-9c85-27623d8d910f"}},
+    "staticQueryHashes": ["2841359383"]}

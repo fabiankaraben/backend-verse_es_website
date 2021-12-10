@@ -2,7 +2,7 @@
 title: Mis apuntes git, conceptos y comandos
 date: "2021-12-02T22:12:03.284Z"
 description: 'Mis apuntes git, conceptos y comandos'
-inHome: true
+inHome: false
 ---
 
 ## Introducción

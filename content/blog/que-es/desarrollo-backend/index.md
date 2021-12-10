@@ -2,7 +2,7 @@
 title: ¿Qué es desarrollo Backend?
 date: "2021-11-29T22:12:03.284Z"
 description: '¿Qué es desarrollo Backend?'
-inHome: true
+inHome: false
 ---
 
 ¿Qué es backend?

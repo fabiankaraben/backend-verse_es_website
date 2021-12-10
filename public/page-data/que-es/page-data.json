@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/que-es/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Backend-Verse"}},"markdownRemark":{"id":"bf5e5b78-ada0-5db5-9c85-27623d8d910f","excerpt":"¿Qué es Desarrollo Backend?","html":"<ul>\n<li><a href=\"/que-es/desarrollo-backend\">¿Qué es Desarrollo Backend?</a></li>\n</ul>","frontmatter":{"title":"Qué es","date":"November 04, 2021","description":"Definiciones de los principales términos en TI"}},"previous":{"fields":{"slug":"/notas/"},"frontmatter":{"title":"Mis notas"}},"next":{"fields":{"slug":"/que-es/desarrollo-backend/"},"frontmatter":{"title":"¿Qué es desarrollo Backend?"}}},"pageContext":{"id":"bf5e5b78-ada0-5db5-9c85-27623d8d910f","previousPostId":"b19c4480-e3f1-5269-9d7f-41f57e980ae1","nextPostId":"0e34aec0-84b8-5ecf-8e25-ae5e30b6daeb"}},
+    "staticQueryHashes": ["2841359383"]}
